@@ -45,7 +45,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" Width="88px" />
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Regresar" Width="88px" />
                 </td>
             </tr>
         </table>
