@@ -17,13 +17,11 @@ public partial class ejemplo2 : System.Web.UI.Page
         DataTable cp = (DataTable)Session["datos"];
         this.GridView1.DataSource= cp;
         this.GridView1.DataBind();
-
-
     }
 
     protected void Button1_Click(object sender, EventArgs e)
     {   // redireccionar a una  página
-        //Response.Redirect("ejemplo1.aspx");
+        Response.Redirect("ejemplo1.aspx");
         string cad = "<script>location =history.back()<script>";
         Response.Write(cad);
     }
