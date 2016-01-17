@@ -47,25 +47,25 @@
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="tcli" ErrorMessage="dato obligatorio" style="color: #FF0000"></asp:RequiredFieldValidator>
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="tcli" ErrorMessage="solo letras y espacio" style="color: #FF0000" ValidationExpression="[A-Z a-zñÑ]+"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="tcli" ErrorMessage="solo letras y espacio" ValidationExpression="[A-Z a-zñÑ]+" style="color: #FF0000"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style4">IMPORTE&nbsp; A DEPOSITAR </td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="tdep" runat="server" Width="157px"></asp:TextBox>
+                    <asp:TextBox ID="tdep" runat="server"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToValidate="tdep" ErrorMessage="valor mayor o igual a 100" Operator="GreaterThanEqual" style="color: #FF0000" Type="Double" ValueToCompare="100"></asp:CompareValidator>
+                    <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToValidate="tdep" ErrorMessage="valor mayor o igual a 100" Operator="GreaterThanEqual" Type="Double" ValueToCompare="100" style="color: #FF0000"></asp:CompareValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style5">NUMERO DE MESES</td>
                 <td class="auto-style7">
-                    <asp:TextBox ID="tmes" runat="server" Width="156px"></asp:TextBox>
+                    <asp:TextBox ID="tmes" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="tmes" ErrorMessage="valor entre 6 a 24" MaximumValue="24" MinimumValue="6" style="color: #FF0000" Type="Integer"></asp:RangeValidator>
+                    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="tmes" ErrorMessage="valor entre 6 a 24" MaximumValue="24" MinimumValue="6" Type="Integer" style="color: #FF0000"></asp:RangeValidator>
                 </td>
             </tr>
             <tr>
@@ -78,7 +78,7 @@
             </tr>
             <tr>
                 <td class="auto-style4" colspan="3">
-                    <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Vertical" Height="264px" Width="392px">
+                    <asp:GridView ID="GridView1" runat="server" CellPadding="3" GridLines="Vertical" Height="264px" Width="392px" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px">
                         <AlternatingRowStyle BackColor="#DCDCDC" />
                         <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
                         <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />

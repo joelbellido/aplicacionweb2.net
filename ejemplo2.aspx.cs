@@ -25,5 +25,6 @@ public partial class ejemplo2 : System.Web.UI.Page
         Response.Redirect("ejemplo1.aspx");
         string cad = "<script>location =history.back()<script>";
         Response.Write(cad);
+        // peru
     }
 }
