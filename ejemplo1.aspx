@@ -46,8 +46,8 @@
                     <asp:TextBox ID="tcli" runat="server" Width="158px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="tcli" ErrorMessage="dato ovligatorio"></asp:RequiredFieldValidator>
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="tcli" ErrorMessage="solo letra s y eapcio" ValidationExpression="[A-Z a-zñÑ]+"></asp:RegularExpressionValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="tcli" ErrorMessage="dato obligatorio" style="color: #FF0000"></asp:RequiredFieldValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="tcli" ErrorMessage="solo letras y espacio" style="color: #FF0000" ValidationExpression="[A-Z a-zñÑ]+"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
@@ -56,7 +56,7 @@
                     <asp:TextBox ID="tdep" runat="server" Width="157px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToValidate="tdep" ErrorMessage="valor mayor o igual a 100" Operator="GreaterThanEqual" Type="Double" ValueToCompare="100"></asp:CompareValidator>
+                    <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToValidate="tdep" ErrorMessage="valor mayor o igual a 100" Operator="GreaterThanEqual" style="color: #FF0000" Type="Double" ValueToCompare="100"></asp:CompareValidator>
                 </td>
             </tr>
             <tr>
@@ -65,7 +65,7 @@
                     <asp:TextBox ID="tmes" runat="server" Width="156px"></asp:TextBox>
                 </td>
                 <td class="auto-style3">
-                    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="tmes" ErrorMessage="valor entre 6 a 24" MaximumValue="24" MinimumValue="6" Type="Integer"></asp:RangeValidator>
+                    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="tmes" ErrorMessage="valor entre 6 a 24" MaximumValue="24" MinimumValue="6" style="color: #FF0000" Type="Integer"></asp:RangeValidator>
                 </td>
             </tr>
             <tr>
