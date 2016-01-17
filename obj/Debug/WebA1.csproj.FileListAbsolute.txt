@@ -1,0 +1,8 @@
+D:\REPOSITORIOLOCAL\PROYECTOS_EN_C#\Proyecto1\WebA1\WebA1\bin\WebA1.dll
+D:\REPOSITORIOLOCAL\PROYECTOS_EN_C#\Proyecto1\WebA1\WebA1\bin\WebA1.pdb
+D:\REPOSITORIOLOCAL\PROYECTOS_EN_C#\Proyecto1\WebA1\WebA1\obj\Debug\WebA1.csprojResolveAssemblyReference.cache
+D:\REPOSITORIOLOCAL\PROYECTOS_EN_C#\Proyecto1\WebA1\WebA1\obj\Debug\WebA1.dll
+D:\REPOSITORIOLOCAL\PROYECTOS_EN_C#\Proyecto1\WebA1\WebA1\obj\Debug\WebA1.pdb
+C:\Users\LAB-USR-PT116-C209\Desktop\NET\Aplicacionweb1.net-test1\WebA1\obj\Debug\WebA1.csprojResolveAssemblyReference.cache
+C:\Users\LAB-USR-PT116-C209\Desktop\NET\Aplicacionweb1.net-test1\WebA1\obj\Debug\WebA1.dll
+C:\Users\LAB-USR-PT116-C209\Desktop\NET\Aplicacionweb1.net-test1\WebA1\obj\Debug\WebA1.pdb

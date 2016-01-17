@@ -15,8 +15,9 @@ public partial class ejemplo2 : System.Web.UI.Page
         lbcli.Text = (string)Session["nombre"];
        
         DataTable cp = (DataTable)Session["datos"];
-        this.GridView1.DataSource= cp;
+        this.GridView1.DataSource = cp;
         this.GridView1.DataBind();
+        // prueba 
     }
 
     protected void Button1_Click(object sender, EventArgs e)
